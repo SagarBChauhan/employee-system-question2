@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>employees</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+      <app-employee-item *ngFor="let employee of employees" [employeeItem]="employee"></app-employee-item>
+  </ion-list>
+</ion-content>
